@@ -1,11 +1,11 @@
-1111 aryan passaryan
+1111 aryan aryanpass
 222 sim simpass
-333 ryan ryanPASSWORD
+33 ryan RYANPASS
 ***************ENCYRPTING NOW***************
-1111 nelna cnffnelna
+1111 nelna nelnacnff
 222 fvz fvzcnff
-333 elna elnaCNFFJBEQ
+33 elna ELNACNFF
 ***************DECRYPTING NOW***************
-1111 aryan passaryan
+1111 aryan aryanpass
 222 sim simpass
-333 ryan ryanPASSWORD
+33 ryan RYANPASS

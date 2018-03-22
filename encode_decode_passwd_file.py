@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import re,codecs,os,sys
+import re,codecs,os,sys,subprocess
 
 def encode_decode(filename):
     uid,usr,passwd,encusr,encpass=[],[],[],[],[]
@@ -35,13 +35,16 @@ def encode_decode(filename):
                 f1.write(uid[i] + " " + usrenc + " " +passwdenc + '\n')            
 
 filename='fakeetcpasswd.txt'
+subprocess.check_output(['touch',filename])
 flag=0
-with open (filename,'r') as f:
-     for line in f:
-         out=re.search('(ENCYRPTING)',line)
-         if out:
-            flag=1
-            break
+if os.path.isfile(filename):
+
+   with open (filename,'r') as f:
+        for line in f:
+            out=re.search('(ENCYRPTING)',line)
+            if out:
+               flag=1
+               break
 
 if flag:
    print ('FILE IS ALREADY ENCRYPTED & DECYRPTED ONCE:-')

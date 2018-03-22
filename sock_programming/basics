@@ -1,0 +1,35 @@
+#!/usr/bin/python3
+
+import socket,os,subprocess
+
+ipaddr=subprocess.check_output(['nslookup','www.epiclighting.com'])
+
+s=socket.socket()
+hostn=socket.gethostname()
+hostn,aliases,ipaddresses=socket.gethostbyname_ex('www.epiclighting.com')
+print ('\n' * 2)
+print ('#' * 40)
+print ('The M/c Supports IPV6 Addresses:-',socket.has_ipv6)
+print ('The hostname of the Machine is:-',hostn)
+print ('THe Aliases of the Machine are:-',aliases)
+print ('The No of ip addresses the Machine has:-',len(ipaddresses))
+print ('IP Addresses of the Machine :-',ipaddresses)
+print ('#' * 40)
+
+fqdn=input('ENTER A FULLY QUALIFIED DOMAIN NAME :-')
+ip=socket.gethostbyname(fqdn)
+
+print ('THE IP ADDRESS OF :-',fqdn ,' IS :- ',ip)
+hostn,aliases,ipaddresses=socket.gethostbyaddr(ip)
+print ('\n' * 2)
+print ('#' * 40)
+print ('The hostname of the Machine is:-',hostn)
+print ('THe Aliases of the Machine are:-',aliases)
+print ('The No of ip addresses the Machine has:-',len(ipaddresses))
+print ('IP Addresses of the Machine :-',ipaddresses)
+print ('#' * 40)
+
+
+
+
+
