@@ -15,9 +15,10 @@ else:
           print ('The root of the DIr Structure:-',root)
           print ('Found "{}" SubDirectories:-'.format(len(dirs)))
           print ('List of SUbDirectories Are:-', dirs)
+          print ('No of Files Found in this Dir:-',len(files)) 
+          print ('List of Files Are:-')
           for filename in files:
-              print ('No of Files Found in this Dir:-',len(files)) 
-              print ('List of Files:-#',i,'"',os.path.join(root,filename),'"')
+              print (os.path.join(root,filename), ' ',i)
               if os.path.isfile(os.path.join(root,filename)):
                  i+=1
                  if i==10:
