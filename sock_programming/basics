@@ -5,10 +5,12 @@ import socket,os,subprocess
 ipaddr=subprocess.check_output(['nslookup','www.epiclighting.com'])
 
 s=socket.socket()
-hostn=socket.gethostname()
+host=socket.gethostname()
 hostn,aliases,ipaddresses=socket.gethostbyname_ex('www.epiclighting.com')
+s.connect((host,80))
 print ('\n' * 2)
 print ('#' * 40)
+print ('Following Info Found on Socket:-',s.getsockname())
 print ('The M/c Supports IPV6 Addresses:-',socket.has_ipv6)
 print ('The hostname of the Machine is:-',hostn)
 print ('THe Aliases of the Machine are:-',aliases)
