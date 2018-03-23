@@ -3,9 +3,10 @@
 import socket
 from time import sleep
 
-s=socket.socket()
+s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 h=socket.gethostname()
 p=12222
+print ('Hostname "{}" and Port "{}" To Connect To:-'.format(h,p))
 s.bind((h,p))
 
 s.listen(2)
