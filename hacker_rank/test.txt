@@ -1,0 +1,36 @@
+inp=[]
+noShoes=int(raw_input())
+for i in range(0,noShoes):
+      inp.append(int(raw_input()))
+
+c=Counter(inp)
+
+noCust=int(raw_input())
+
+s=Counter()
+p=[]
+total=0
+for i in range(noCust):
+
+    temp=raw_input()
+    temp=temp.split(' ')
+    if len(temp) == 2:
+       try:
+          size,price=int(temp[0]),int(temp[1])
+          s[size]+=1
+          p.append(price)
+          size,price=int(temp[0]),int(temp[1])
+       except:
+          print ('Please Enter Only Integer Values for Size and Its Price....')
+
+sleep(20)
+
+l=list(s.elements())
+print (len(l), l)
+for i in range(0,len(l)):
+    for j in c:
+        if l[i]==j and c[j]!= 0:
+           total+=p[i]
+           c[j]-=1
+       
+print (total) 
