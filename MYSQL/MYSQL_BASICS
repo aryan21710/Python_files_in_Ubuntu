@@ -1,0 +1,433 @@
+mysql-server-5.0:
+  Installed: (none)
+  Candidate: (none)
+  Version table:
+mysql-server-5.1:
+  Installed: (none)
+  Candidate: (none)
+  Version table:
+mysql-server-5.5:
+  Installed: (none)
+  Candidate: (none)
+  Version table:
+mysql-server-5.6:
+  Installed: (none)
+  Candidate: (none)
+  Version table:
+mysql-server-5.7:
+  Installed: 5.7.21-0ubuntu0.16.04.1
+  Candidate: 5.7.21-0ubuntu0.16.04.1
+  Version table:
+ *** 5.7.21-0ubuntu0.16.04.1 500
+        500 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+        500 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+        100 /var/lib/dpkg/status
+     5.7.11-0ubuntu6 500
+        500 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+mysql-server:
+  Installed: 5.7.21-0ubuntu0.16.04.1
+  Candidate: 5.7.21-0ubuntu0.16.04.1
+  Version table:
+ *** 5.7.21-0ubuntu0.16.04.1 500
+        500 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+        500 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+        500 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+        500 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+        100 /var/lib/dpkg/status
+     5.7.11-0ubuntu6 500
+        500 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+        500 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+virtual-mysql-server-core:
+  Installed: (none)
+  Candidate: (none)
+  Version table:
+mysql-server-core-5.1:
+  Installed: (none)
+  Candidate: (none)
+  Version table:
+mysql-server-core-5.5:
+  Installed: (none)
+  Candidate: (none)
+  Version table:
+mysql-server-core-5.6:
+  Installed: (none)
+  Candidate: (none)
+  Version table:
+mysql-server-core-5.7:
+  Installed: 5.7.21-0ubuntu0.16.04.1
+  Candidate: 5.7.21-0ubuntu0.16.04.1
+  Version table:
+ *** 5.7.21-0ubuntu0.16.04.1 500
+        500 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+        500 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+        100 /var/lib/dpkg/status
+     5.7.11-0ubuntu6 500
+        500 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+virtual-mysql-server:
+  Installed: (none)
+  Candidate: (none)
+  Version table:
+
+
+root@UbuntuOnAryMac# mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 3
+Server version: 5.7.21-0ubuntu0.16.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases:
+    -> \c
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| testdb             |
++--------------------+
+5 rows in set (0.03 sec)
+
+mysql> show tables;
+ERROR 1046 (3D000): No database selected
+mysql> create database testdb;
+ERROR 1007 (HY000): Can't create database 'testdb'; database exists
+mysql> create database newtestdb;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> describe newtestdb;
+ERROR 1046 (3D000): No database selected
+mysql> show tables;
+ERROR 1046 (3D000): No database selected
+mysql> use newtestdb;
+Database changed
+mysql> create user 'user1@localhost';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| newtestdb          |
+| performance_schema |
+| sys                |
+| testdb             |
++--------------------+
+6 rows in set (0.00 sec)
+
+mysql> create table MY_GADGETS (GADGET_TYPE VARCHAR(20), BRAND VARCHAR(20), PRICE_IN_THOUSANDS INT, COLOR VARCHAR(10));
+Query OK, 0 rows affected (0.40 sec)
+
+mysql> show tables;
++---------------------+
+| Tables_in_newtestdb |
++---------------------+
+| MY_GADGETS          |
++---------------------+
+1 row in set (0.00 sec)
+
+mysql> describe MY_GADGETS;
++--------------------+-------------+------+-----+---------+-------+
+| Field              | Type        | Null | Key | Default | Extra |
++--------------------+-------------+------+-----+---------+-------+
+| GADGET_TYPE        | varchar(20) | YES  |     | NULL    |       |
+| BRAND              | varchar(20) | YES  |     | NULL    |       |
+| PRICE_IN_THOUSANDS | int(11)     | YES  |     | NULL    |       |
+| COLOR              | varchar(10) | YES  |     | NULL    |       |
++--------------------+-------------+------+-----+---------+-------+
+4 rows in set (0.01 sec)
+
+mysql> insert into MY_GADGETS (GADGET_TYPE, BRAND, PRICE_IN_THOUSANDS, COLOR) values(MOBILE, SAMSUNG, 60, BLACK, SMARTWATCH, SAMSUNG, 20, BLACK)
+    -> \C
+ERROR: 
+Usage: \C charset_name | charset charset_name
+    -> \c
+mysql> insert into MY_GADGETS (GADGET_TYPE, BRAND, PRICE_IN_THOUSANDS, COLOR) values(MOBILE, SAMSUNG, 60, BLACK, SMARTWATCH, SAMSUNG, 20, BLACK) ;
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+mysql> insert into MY_GADGETS (GADGET_TYPE, BRAND, PRICE_IN_THOUSANDS, COLOR) values(MOBILE, SAMSUNG, 60, BLACK, SMARTWATCH, SAMSUNG, 20, BLACK);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+mysql> insert into MY_GADGETS (GADGET_TYPE, BRAND, PRICE_IN_THOUSANDS, COLOR) values(MOBILE, SAMSUNG, 60, BLACK);
+ERROR 1054 (42S22): Unknown column 'MOBILE' in 'field list'
+mysql> insert into MY_GADGETS (GADGET_TYPE, BRAND, PRICE_IN_THOUSANDS, COLOR) values('MOBILE', 'SAMSUNG', '60', 'BLACK');
+Query OK, 1 row affected (0.09 sec)
+
+mysql> insert into MY_GADGETS (GADGET_TYPE, BRAND, PRICE_IN_THOUSANDS, COLOR) values('SMARTWATCH', 'SAMSUNG', '20', 'BLACK');
+Query OK, 1 row affected (0.07 sec)
+
+mysql> insert into MY_GADGETS (GADGET_TYPE, BRAND, PRICE_IN_THOUSANDS, COLOR) values('LAPTOP', 'MICROSOFT SURFACE PRO', '80', 'GREY');
+ERROR 1406 (22001): Data too long for column 'BRAND' at row 1
+mysql> insert into MY_GADGETS (GADGET_TYPE, BRAND, PRICE_IN_THOUSANDS, COLOR) values('LAPTOP', 'M/S SURFACE PRO', '80', 'GREY'); 
+Query OK, 1 row affected (0.06 sec)
+
+mysql> describe MY_GADGETS;
++--------------------+-------------+------+-----+---------+-------+
+| Field              | Type        | Null | Key | Default | Extra |
++--------------------+-------------+------+-----+---------+-------+
+| GADGET_TYPE        | varchar(20) | YES  |     | NULL    |       |
+| BRAND              | varchar(20) | YES  |     | NULL    |       |
+| PRICE_IN_THOUSANDS | int(11)     | YES  |     | NULL    |       |
+| COLOR              | varchar(10) | YES  |     | NULL    |       |
++--------------------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+mysql> select * from MY_GADGETS;
++-------------+-----------------+--------------------+-------+
+| GADGET_TYPE | BRAND           | PRICE_IN_THOUSANDS | COLOR |
++-------------+-----------------+--------------------+-------+
+| MOBILE      | SAMSUNG         |                 60 | BLACK |
+| SMARTWATCH  | SAMSUNG         |                 20 | BLACK |
+| LAPTOP      | M/S SURFACE PRO |                 80 | GREY  |
++-------------+-----------------+--------------------+-------+
+3 rows in set (0.00 sec)
+
+mysql> 
+
+mysql> use testdb;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> describe testdb;
+ERROR 1146 (42S02): Table 'testdb.testdb' doesn't exist
+mysql> show tables;
++------------------+
+| Tables_in_testdb |
++------------------+
+| CARS             |
++------------------+
+1 row in set (0.00 sec)
+
+mysql> describe CARS;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| MODEL       | varchar(10) | YES  |     | NULL    |       |
+| POWER_IN_CC | int(11)     | YES  |     | NULL    |       |
+| COLOR       | varchar(10) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> DROP TABLE CARS;
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> show tables;
+Empty set (0.00 sec)
+
+mysql> describe CARS;
+ERROR 1146 (42S02): Table 'testdb.CARS' doesn't exist
+mysql>  
+
+mysql> DELETE FROM MY_GADGETS where COLOR='BLACK';
+Query OK, 2 rows affected (0.06 sec)
+
+mysql> select * from MY_GADGETS;
++-------------+-----------------+--------------------+-------+
+| GADGET_TYPE | BRAND           | PRICE_IN_THOUSANDS | COLOR |
++-------------+-----------------+--------------------+-------+
+| LAPTOP      | M/S SURFACE PRO |                 80 | GREY  |
++-------------+-----------------+--------------------+-------+
+1 row in set (0.00 sec)
+
+mysql>  
+
+mysql> select * from MY_TOYS;
+Empty set (0.00 sec)
+
+mysql> DROP TABLE MY_TOYS;
+Query OK, 0 rows affected (0.16 sec)
+
+mysql> select * from MY_TOYS;
+ERROR 1146 (42S02): Table 'newtestdb.MY_TOYS' doesn't exist
+mysql> CREATE TABLE IF NOT EXISTS MY_TOYS;
+ERROR 1113 (42000): A table must have at least 1 column
+mysql> CREATE TABLE IF NOT EXISTS MY_TOYS
+    -> SELECT * FROM MY_GADGETS;
+Query OK, 3 rows affected (0.35 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM MY_TOYS;
++-------------+-----------------+--------------------+-------+
+| GADGET_TYPE | BRAND           | PRICE_IN_THOUSANDS | COLOR |
++-------------+-----------------+--------------------+-------+
+| LAPTOP      | M/S SURFACE PRO |                 80 | GREY  |
+| MOBILE      | SAMSUNG         |                 60 | BLACK |
+| SMARTWATCH  | SAMSUNG         |                 20 | BLACK |
++-------------+-----------------+--------------------+-------+
+3 rows in set (0.00 sec)
+
+###########################
+
+-->HOW TO ADD A COLUMN IN A TABLE:-
+
+Query OK, 0 rows affected (0.53 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> select * from MY_TOYS;
++-------------+-----------------+--------------------+-------+--------+
+| GADGET_TYPE | BRAND           | PRICE_IN_THOUSANDS | COLOR | STATUS |
++-------------+-----------------+--------------------+-------+--------+
+| LAPTOP      | M/S SURFACE PRO |                 80 | GREY  | NULL   |
+| MOBILE      | SAMSUNG         |                 60 | BLACK | NULL   |
+| SMARTWATCH  | SAMSUNG         |                 20 | BLACK | NULL   |
++-------------+-----------------+--------------------+-------+--------+
+3 rows in set (0.00 sec)
+
+mysql> insert into MY_TOYS (laptop) values(5months old);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'old)' at line 1
+mysql> insert into MY_TOYS (laptop) values('5months old');
+ERROR 1054 (42S22): Unknown column 'laptop' in 'field list'
+mysql> insert into MY_TOYS (LAPTOP) values('5months old');
+ERROR 1054 (42S22): Unknown column 'LAPTOP' in 'field list'
+mysql> insert into MY_TOYS (STATUS) values('5months old');
+Query OK, 1 row affected (0.05 sec)
+
+mysql> select * from MY_TOYS;
++-------------+-----------------+--------------------+-------+-------------+
+| GADGET_TYPE | BRAND           | PRICE_IN_THOUSANDS | COLOR | STATUS      |
++-------------+-----------------+--------------------+-------+-------------+
+| LAPTOP      | M/S SURFACE PRO |                 80 | GREY  | NULL        |
+| MOBILE      | SAMSUNG         |                 60 | BLACK | NULL        |
+| SMARTWATCH  | SAMSUNG         |                 20 | BLACK | NULL        |
+| NULL        | NULL            |               NULL | NULL  | 5months old |
++-------------+-----------------+--------------------+-------+-------------+
+4 rows in set (0.00 sec)
+
+mysql> DELTE FROM MY_TOYS where GADGET_TYPE='NULL';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DELTE FROM MY_TOYS where GADGET_TYPE='NULL'' at line 1
+mysql> DELTE FROM MY_TOYS where GADGET_TYPE=NULL;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DELTE FROM MY_TOYS where GADGET_TYPE=NULL' at line 1
+mysql> DELETE FROM MY_TOYS where GADGET_TYPE=NULL;
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> select * from MY_TOYS;
++-------------+-----------------+--------------------+-------+-------------+
+| GADGET_TYPE | BRAND           | PRICE_IN_THOUSANDS | COLOR | STATUS      |
++-------------+-----------------+--------------------+-------+-------------+
+| LAPTOP      | M/S SURFACE PRO |                 80 | GREY  | NULL        |
+| MOBILE      | SAMSUNG         |                 60 | BLACK | NULL        |
+| SMARTWATCH  | SAMSUNG         |                 20 | BLACK | NULL        |
+| NULL        | NULL            |               NULL | NULL  | 5months old |
++-------------+-----------------+--------------------+-------+-------------+
+4 rows in set (0.01 sec)
+
+mysql> DELETE FROM MY_TOYS where STATUS='5months old';
+Query OK, 1 row affected (0.08 sec)
+
+mysql> select * from MY_TOYS;
++-------------+-----------------+--------------------+-------+--------+
+| GADGET_TYPE | BRAND           | PRICE_IN_THOUSANDS | COLOR | STATUS |
++-------------+-----------------+--------------------+-------+--------+
+| LAPTOP      | M/S SURFACE PRO |                 80 | GREY  | NULL   |
+| MOBILE      | SAMSUNG         |                 60 | BLACK | NULL   |
+| SMARTWATCH  | SAMSUNG         |                 20 | BLACK | NULL   |
++-------------+-----------------+--------------------+-------+--------+
+3 rows in set (0.00 sec)
+
+mysql> insert into MY_TOYS(GADGET_TYPE,BRAND,PRICE_IN_THOUSANDS,COLOR,STATUS) values('LAPTOP','M/S SURFACE PRO',80, 'GREY' ,'5months old');
+Query OK, 1 row affected (0.07 sec)
+
+mysql> select * from MY_TOYS;                                                                                                   +-------------+-----------------+--------------------+-------+-------------+
+| GADGET_TYPE | BRAND           | PRICE_IN_THOUSANDS | COLOR | STATUS      |
++-------------+-----------------+--------------------+-------+-------------+
+| LAPTOP      | M/S SURFACE PRO |                 80 | GREY  | NULL        |
+| MOBILE      | SAMSUNG         |                 60 | BLACK | NULL        |
+| SMARTWATCH  | SAMSUNG         |                 20 | BLACK | NULL        |
+| LAPTOP      | M/S SURFACE PRO |                 80 | GREY  | 5months old |
++-------------+-----------------+--------------------+-------+-------------+
+4 rows in set (0.00 sec)
+
+mysql> DELETE FROM MY_TOYS where COLOR='GREY';
+Query OK, 2 rows affected (0.07 sec)
+
+mysql> select * from MY_TOYS;
++-------------+---------+--------------------+-------+--------+
+| GADGET_TYPE | BRAND   | PRICE_IN_THOUSANDS | COLOR | STATUS |
++-------------+---------+--------------------+-------+--------+
+| MOBILE      | SAMSUNG |                 60 | BLACK | NULL   |
+| SMARTWATCH  | SAMSUNG |                 20 | BLACK | NULL   |
++-------------+---------+--------------------+-------+--------+
+2 rows in set (0.00 sec)
+
+mysql> insert into MY_TOYS(GADGET_TYPE,BRAND,PRICE_IN_THOUSANDS,COLOR,STATUS) values('LAPTOP','M/S SURFACE PRO',80, 'GREY' ,'5months old');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> select * from MY_TOYS;                                                                                                   +-------------+-----------------+--------------------+-------+-------------+
+| GADGET_TYPE | BRAND           | PRICE_IN_THOUSANDS | COLOR | STATUS      |
++-------------+-----------------+--------------------+-------+-------------+
+| MOBILE      | SAMSUNG         |                 60 | BLACK | NULL        |
+| SMARTWATCH  | SAMSUNG         |                 20 | BLACK | NULL        |
+| LAPTOP      | M/S SURFACE PRO |                 80 | GREY  | 5months old |
++-------------+-----------------+--------------------+-------+-------------+
+3 rows in set (0.00 sec)
+
+mysql> 
+
+
+
+###################
+
+# MODIFY AN EXISTING COLUMN:-
+
+ql> select * from MY_TOYS;                                                                                                   +-------------+-----------------+--------------------+-------+-------------+
+| GADGET_TYPE | BRAND           | PRICE_IN_THOUSANDS | COLOR | STATUS      |
++-------------+-----------------+--------------------+-------+-------------+
+| MOBILE      | SAMSUNG         |                 60 | BLACK | NULL        |
+| SMARTWATCH  | SAMSUNG         |                 20 | BLACK | NULL        |
+| LAPTOP      | M/S SURFACE PRO |                 80 | GREY  | 5months old |
++-------------+-----------------+--------------------+-------+-------------+
+3 rows in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> 
+mysql> ALTER TABLE MY_TOYS MODIFY PRICE_IN_THOUSANDS VARCHAR(20);
+Query OK, 3 rows affected (0.55 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> select * from MY_TOYS;
++-------------+-----------------+--------------------+-------+-------------+
+| GADGET_TYPE | BRAND           | PRICE_IN_THOUSANDS | COLOR | STATUS      |
++-------------+-----------------+--------------------+-------+-------------+
+| MOBILE      | SAMSUNG         | 60                 | BLACK | NULL        |
+| SMARTWATCH  | SAMSUNG         | 20                 | BLACK | NULL        |
+| LAPTOP      | M/S SURFACE PRO | 80                 | GREY  | 5months old |
++-------------+-----------------+--------------------+-------+-------------+
+
+
+
+##################################
+# SELECTING TOP 2 ROWS OF DATA 
+
+ql> select BRAND
+    -> from MY_TOYS
+    -> where BRAND='SAMSUNG'
+    -> LIMIT 1;
++---------+
+| BRAND   |
++---------+
+| SAMSUNG |
++---------+
+1 row in set (0.00 sec)
+
+mysql> select COLOR from MY_TOYS LIMIT 2;
++-------+
+| COLOR |
++-------+
+| BLACK |
+| BLACK |
++-------+
+2 rows in set (0.00 sec)
+
+########################################################
+
