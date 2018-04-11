@@ -1,0 +1,273 @@
+/home/aryan/python_scripts/MYSQL/connect.py:import MySQLdb as mdb
+/home/aryan/python_scripts/MYSQL/connect_bk.py:import MySQLdb as mdb
+/home/aryan/python_scripts/MYSQL/create_insert_table.py:import MySQLdb as mdb
+/home/aryan/python_scripts/ubuntu_scripts/counter_module_usage.py:from collections import Counter
+/home/aryan/python_scripts/ubuntu_scripts/counter_module_usage.py:import os
+/home/aryan/python_scripts/ubuntu_scripts/hacker_rank/builtins_polynomial.py:import math
+/home/aryan/python_scripts/ubuntu_scripts/hacker_rank/counter_shoe_problem:from collections import Counter
+/home/aryan/python_scripts/ubuntu_scripts/hacker_rank/counter_shoe_problem:from time import sleep
+/home/aryan/python_scripts/ubuntu_scripts/hacker_rank/incomplete/defaultdict2.py:from collections import defaultdict
+/home/aryan/python_scripts/ubuntu_scripts/hacker_rank/incomplete/defaultdict2.py:import os
+/home/aryan/python_scripts/ubuntu_scripts/hacker_rank/incomplete/defaultdict.py:from collections import defaultdict
+/home/aryan/python_scripts/ubuntu_scripts/Networking_scripts/telnet_host_find_all_directories.py:import telnetlib as tlib
+/home/aryan/python_scripts/ubuntu_scripts/Networking_scripts/telnet_host_find_all_directories.py:import getpass
+/home/aryan/python_scripts/ubuntu_scripts/Networking_scripts/telnet_host_find_all_directories.py:import re
+/home/aryan/python_scripts/ubuntu_scripts/Networking_scripts/telnet_to_host.py:import telnetlib
+/home/aryan/python_scripts/ubuntu_scripts/Networking_scripts/telnet_to_host.py:import getpass
+/home/aryan/python_scripts/ubuntu_scripts/Networking_scripts/telnet_to_host.py:import sys
+/home/aryan/python_scripts/ubuntu_scripts/file_size_timestamp.py:import os,sys,subprocess,time,re
+/home/aryan/python_scripts/ubuntu_scripts/increase_size_of_a_file.py:import os
+/home/aryan/python_scripts/ubuntu_scripts/increase_size_of_a_file.py:import subprocess
+/home/aryan/python_scripts/ubuntu_scripts/increase_size_of_a_file.py:import sys
+/home/aryan/python_scripts/ubuntu_scripts/increase_size_of_a_file.py:import os.path
+/home/aryan/python_scripts/ubuntu_scripts/git_upload.py:import os,sys,subprocess
+/home/aryan/python_scripts/ubuntu_scripts/find_file_in_computer.py:import os,sys
+/home/aryan/python_scripts/ubuntu_scripts/subprocess_func.py:import subprocess,os,sys
+/home/aryan/python_scripts/ubuntu_scripts/defaultdict_usuage.py:from collections import defaultdict
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/socket_client3.py:import socket
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/servers.py:import os,sys,re,socket,time,subprocess
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/hashing_basics.py:import hashlib
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/socket_server3.py:import socket
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/sock_test.py:import socket
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/socket_server2.py:import socket
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/socket_server2.py:from time import sleep
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/argv_usage.py:import sys
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/socket_server_func.py:import socket
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/socket_server_func.py:from time import sleep
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/findpip.py:import re
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/socket_client2.py:import socket,os,subprocess
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/check_open_ports.py:import socket,subprocess,re
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/basics:import socket,os,subprocess
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/socket_client.py:import socket
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/socket_server.py:import socket
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/sock_client_test.py:import socket
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/python_basic.py:import os,sys,re,socket,time
+/home/aryan/python_scripts/ubuntu_scripts/sock_programming/ping_and_response.py:import socket,os,subprocess,re
+/home/aryan/python_scripts/ubuntu_scripts/encode_decode_passwd_file.py:import re,codecs,os,sys,subprocess
+Binary file /home/aryan/python_scripts/ubuntu_scripts/.git_upload.py.swp matches
+/home/aryan/python_scripts/ubuntu_scripts/os_walk.py:import os,sys
+/home/aryan/python_scripts/ubuntu_scripts/read_x_lines_from_a_file.py:import os
+/home/aryan/python_scripts/ubuntu_scripts/.git/hooks/pre-rebase.sample:    Then you can delete it.  More importantly, you should not
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:import sys, os
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:from SSX import *
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:from CISCO import *
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:from Linux import *
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:from StokeTest import test_case, test_suite, test_runner
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:from log import buildLogger
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:from logging import getLogger
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:from vlan import *
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:from misc import *
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:from helpers import is_healthy
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:import re
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:from config import *
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001 11.35.16 PM.py:from topo import *
+/home/aryan/python_scripts/windows_scripts/hello 2.py:import sys
+/home/aryan/python_scripts/windows_scripts/try_except_exception_handling:import sys
+/home/aryan/python_scripts/windows_scripts/babynames 2.py:import sys
+/home/aryan/python_scripts/windows_scripts/babynames 2.py:import re
+/home/aryan/python_scripts/windows_scripts/reg_expression_exercise8:import re
+/home/aryan/python_scripts/windows_scripts/new_python/input_user:import sys
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/23_without_regexp:import re
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/16:import sys
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/40_anagram_game:import random
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/40_anagram_game:>>> import anagram
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/file:import sys
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/41_lingo_game:import random
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/41_lingo_game:>>> import lingo
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/39_guess_the_number_game:import random
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/39_guess_the_number_game:>>> import guess_number
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/dict_exercise:import sys
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/22:import string
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/dict_file:import sys
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/1_2:import sys
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/11:import sys
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/3:import sys
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/33:import os
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/33:import time
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/33:Your task in this exercise is to write a procedure speak_ICAO() able to translate any text (i.e. any string) into spoken ICAO words. You need to import at least two libraries: os and time. On a mac, you have access to the system TTS (Text-To-Speech) as follows: os.system('say ' + msg), where msg is the string to be spoken. (Under UNIX/Linux and Windows, something similar might exist.) Apart from the text to be spoken, your procedure also needs to accept two additional parameters: a float indicating the length of the pause between each spoken ICAO word, and a float indicating the length of the pause between each word spoken.
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/testfil3:bspace/site-manage/sakai_2-4-x/site-manage-tool/tool/src/webapp/vm/sitesetup/chef_site-importSites.vm
+/home/aryan/python_scripts/windows_scripts/new_python/exercise/4:import sys
+/home/aryan/python_scripts/windows_scripts/new_python/list1:import sys
+/home/aryan/python_scripts/windows_scripts/new_python/list1:import os
+/home/aryan/python_scripts/windows_scripts/new_python/list1:import random
+/home/aryan/python_scripts/windows_scripts/new_python/datetime1:from datetime import datetime
+/home/aryan/python_scripts/windows_scripts/new_python/while_random:import random
+/home/aryan/python_scripts/windows_scripts/logpuzzle 2.py:import os
+/home/aryan/python_scripts/windows_scripts/logpuzzle 2.py:import re
+/home/aryan/python_scripts/windows_scripts/logpuzzle 2.py:import sys
+/home/aryan/python_scripts/windows_scripts/logpuzzle 2.py:import urllib
+/home/aryan/python_scripts/windows_scripts/copyspecial 3.py:import sys
+/home/aryan/python_scripts/windows_scripts/copyspecial 3.py:import re
+/home/aryan/python_scripts/windows_scripts/copyspecial 3.py:import os
+/home/aryan/python_scripts/windows_scripts/copyspecial 3.py:import shutil
+/home/aryan/python_scripts/windows_scripts/copyspecial 3.py:import commands
+/home/aryan/python_scripts/windows_scripts/mimic 4.py:import random
+/home/aryan/python_scripts/windows_scripts/mimic 4.py:import sys
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:import sys, os
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:from SSX import *
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:from CISCO import *
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:from Linux import *
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:from StokeTest import test_case, test_suite, test_runner
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:from log import buildLogger
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:from logging import getLogger
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:from vlan import *
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:from misc import *
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:from helpers import is_healthy
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:import re
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:from config import *
+/home/aryan/python_scripts/windows_scripts/ECMP_FUN_001.py:from topo import *
+/home/aryan/python_scripts/windows_scripts/reg_expression_file11_b:54636,"Trimport",7232,"Bitburg-Prum",7,"Rheinland-Pfalz"
+/home/aryan/python_scripts/windows_scripts/copyspecial.py:import sys
+/home/aryan/python_scripts/windows_scripts/copyspecial.py:import re
+/home/aryan/python_scripts/windows_scripts/copyspecial.py:import os
+/home/aryan/python_scripts/windows_scripts/copyspecial.py:import shutil
+/home/aryan/python_scripts/windows_scripts/copyspecial.py:import commands
+/home/aryan/python_scripts/windows_scripts/dict_exercise:import sys
+/home/aryan/python_scripts/windows_scripts/battleship_game_1:from random import randint
+/home/aryan/python_scripts/windows_scripts/logpuzzle 4.py:import os
+/home/aryan/python_scripts/windows_scripts/logpuzzle 4.py:import re
+/home/aryan/python_scripts/windows_scripts/logpuzzle 4.py:import sys
+/home/aryan/python_scripts/windows_scripts/logpuzzle 4.py:import urllib
+/home/aryan/python_scripts/windows_scripts/datetime:from datetime import datetime
+/home/aryan/python_scripts/windows_scripts/reg_expression_exercise11:import re
+/home/aryan/python_scripts/windows_scripts/exercise/hangman:import random
+/home/aryan/python_scripts/windows_scripts/exercise/hangman:import re
+/home/aryan/python_scripts/windows_scripts/exercise/16:import sys
+/home/aryan/python_scripts/windows_scripts/exercise/40_anagram_game:import random
+/home/aryan/python_scripts/windows_scripts/exercise/40_anagram_game:>>> import anagram
+/home/aryan/python_scripts/windows_scripts/exercise/41_lingo_game:import random
+/home/aryan/python_scripts/windows_scripts/exercise/41_lingo_game:>>> import lingo
+/home/aryan/python_scripts/windows_scripts/exercise/new_excercises/www_pythonchallenge_com/1:import string
+/home/aryan/python_scripts/windows_scripts/exercise/new_excercises/www_pythonchallenge_com/3:import re
+/home/aryan/python_scripts/windows_scripts/exercise/new_excercises/www_pythonchallenge_com/2:import re
+/home/aryan/python_scripts/windows_scripts/exercise/new_excercises/password_gen:import random
+/home/aryan/python_scripts/windows_scripts/exercise/new_excercises/password_gen:import string
+/home/aryan/python_scripts/windows_scripts/exercise/new_excercises/2.11:import sys
+/home/aryan/python_scripts/windows_scripts/exercise/new_excercises/10:import re
+/home/aryan/python_scripts/windows_scripts/exercise/new_excercises/18:import re
+/home/aryan/python_scripts/windows_scripts/exercise/new_excercises/13:import re
+/home/aryan/python_scripts/windows_scripts/exercise/new_excercises/6:import math
+/home/aryan/python_scripts/windows_scripts/exercise/new_excercises/11:import math
+/home/aryan/python_scripts/windows_scripts/exercise/new_excercises/7:import numpy
+/home/aryan/python_scripts/windows_scripts/exercise/39_guess_the_number_game:import random
+/home/aryan/python_scripts/windows_scripts/exercise/39_guess_the_number_game:>>> import guess_number
+/home/aryan/python_scripts/windows_scripts/exercise/46_file:import
+/home/aryan/python_scripts/windows_scripts/exercise/46_file:important
+/home/aryan/python_scripts/windows_scripts/exercise/46_file:importation
+/home/aryan/python_scripts/windows_scripts/exercise/46_file:importunate
+/home/aryan/python_scripts/windows_scripts/exercise/46_file:importune
+/home/aryan/python_scripts/windows_scripts/exercise/hangman_a:import random
+/home/aryan/python_scripts/windows_scripts/exercise/hangman_a:import re
+/home/aryan/python_scripts/windows_scripts/exercise/44_bkp:import re
+/home/aryan/python_scripts/windows_scripts/exercise/abc:import re
+/home/aryan/python_scripts/windows_scripts/exercise/1_2:import sys
+/home/aryan/python_scripts/windows_scripts/exercise/45:import random
+/home/aryan/python_scripts/windows_scripts/exercise/23:import re
+/home/aryan/python_scripts/windows_scripts/exercise/11:import sys
+/home/aryan/python_scripts/windows_scripts/exercise/3:import sys
+/home/aryan/python_scripts/windows_scripts/exercise/hangman_b:import random
+/home/aryan/python_scripts/windows_scripts/exercise/hangman_b:import re
+/home/aryan/python_scripts/windows_scripts/exercise/46:import re
+/home/aryan/python_scripts/windows_scripts/exercise/42:import re
+/home/aryan/python_scripts/windows_scripts/exercise/35:import os
+/home/aryan/python_scripts/windows_scripts/exercise/35:import time
+/home/aryan/python_scripts/windows_scripts/exercise/35:Your task in this exercise is to write a procedure speak_ICAO() able to translate any text (i.e. any string) into spoken ICAO words. You need to import at least two libraries: os and time. On a mac, you have access to the system TTS (Text-To-Speech) as follows: os.system('say ' + msg), where msg is the string to be spoken. (Under UNIX/Linux and Windows, something similar might exist.) Apart from the text to be spoken, your procedure also needs to accept two additional parameters: a float indicating the length of the pause between each spoken ICAO word, and a float indicating the length of the pause between each word spoken.
+/home/aryan/python_scripts/windows_scripts/exercise/44:import re
+/home/aryan/python_scripts/windows_scripts/exercise/4:import sys
+/home/aryan/python_scripts/windows_scripts/copyspecial 4.py:import sys
+/home/aryan/python_scripts/windows_scripts/copyspecial 4.py:import re
+/home/aryan/python_scripts/windows_scripts/copyspecial 4.py:import os
+/home/aryan/python_scripts/windows_scripts/copyspecial 4.py:import shutil
+/home/aryan/python_scripts/windows_scripts/copyspecial 4.py:import commands
+/home/aryan/python_scripts/windows_scripts/wordcount 3.py:import sys
+/home/aryan/python_scripts/windows_scripts/reg_expression_exercise11_a:import re
+/home/aryan/python_scripts/windows_scripts/wordcount 4.py:import sys
+/home/aryan/python_scripts/windows_scripts/funny_prompt_wrong_file_entered:import sys
+/home/aryan/python_scripts/windows_scripts/mimic 3.py:import random
+/home/aryan/python_scripts/windows_scripts/mimic 3.py:import sys
+/home/aryan/python_scripts/windows_scripts/reg_expression:import re
+/home/aryan/python_scripts/windows_scripts/copyspecial 2.py:import sys
+/home/aryan/python_scripts/windows_scripts/copyspecial 2.py:import re
+/home/aryan/python_scripts/windows_scripts/copyspecial 2.py:import os
+/home/aryan/python_scripts/windows_scripts/copyspecial 2.py:import shutil
+/home/aryan/python_scripts/windows_scripts/copyspecial 2.py:import commands
+/home/aryan/python_scripts/windows_scripts/reg_expression_exercise:import re
+/home/aryan/python_scripts/windows_scripts/reg_expression_exercise9:import re
+/home/aryan/python_scripts/windows_scripts/gui/1:from Tkinter import *
+/home/aryan/python_scripts/windows_scripts/gui/3:from Tkinter import *
+/home/aryan/python_scripts/windows_scripts/gui/4:from Tkinter import *
+/home/aryan/python_scripts/windows_scripts/gui/2:from Tkinter import *
+/home/aryan/python_scripts/windows_scripts/babynames 4.py:import sys
+/home/aryan/python_scripts/windows_scripts/babynames 4.py:import re
+/home/aryan/python_scripts/windows_scripts/reg_expression2:import re
+/home/aryan/python_scripts/windows_scripts/wordcount.py:import sys
+/home/aryan/python_scripts/windows_scripts/if_else_exercise:import sys
+/home/aryan/python_scripts/windows_scripts/loop_exercise2:import sys
+/home/aryan/python_scripts/windows_scripts/reg_expression_exercise6:import re
+/home/aryan/python_scripts/windows_scripts/reg_expression_exercise2:import re
+/home/aryan/python_scripts/windows_scripts/if_exercise_pay_program:import sys
+/home/aryan/python_scripts/windows_scripts/file_write:import sys
+/home/aryan/python_scripts/windows_scripts/import:import math            # Imports the math module
+/home/aryan/python_scripts/windows_scripts/wordcount 2.py:import sys
+/home/aryan/python_scripts/windows_scripts/re.split:import re
+/home/aryan/python_scripts/windows_scripts/babynames.py:import sys
+/home/aryan/python_scripts/windows_scripts/babynames.py:import re
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:import sys, os
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from SSX import SSX
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from CISCO import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from Linux import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from log import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from StokeTest import test_case, test_suite, test_runner
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from log import buildLogger
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from logging import getLogger
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from helpers import is_healthy
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from misc import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from glcr import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from lanlan import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from ike import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from config_docomo import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001.py:from topo_glcr import *
+/home/aryan/python_scripts/windows_scripts/loop_exercise:import sys
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:import sys, os
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from SSX import SSX
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from CISCO import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from Linux import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from log import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from StokeTest import test_case, test_suite, test_runner
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from log import buildLogger
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from logging import getLogger
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from helpers import is_healthy
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from misc import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from glcr import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from lanlan import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from ike import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from config_docomo import *
+/home/aryan/python_scripts/windows_scripts/GLCR_SES_IKEv2_FUN_001 11.35.16 PM.py:from topo_glcr import *
+/home/aryan/python_scripts/windows_scripts/logpuzzle 3.py:import os
+/home/aryan/python_scripts/windows_scripts/logpuzzle 3.py:import re
+/home/aryan/python_scripts/windows_scripts/logpuzzle 3.py:import sys
+/home/aryan/python_scripts/windows_scripts/logpuzzle 3.py:import urllib
+/home/aryan/python_scripts/windows_scripts/reg_expression_exercise3:import re
+/home/aryan/python_scripts/windows_scripts/reg_expression_exercise3:import math
+/home/aryan/python_scripts/windows_scripts/regex_ipaddr:import re
+/home/aryan/python_scripts/windows_scripts/hello.py:import sys
+/home/aryan/python_scripts/windows_scripts/dict_exercise2:import sys
+/home/aryan/python_scripts/windows_scripts/break_each_lineoffile_with_PUNCTUTAION_into_list_of_words:import string
+/home/aryan/python_scripts/windows_scripts/logpuzzle.py:import os
+/home/aryan/python_scripts/windows_scripts/logpuzzle.py:import re
+/home/aryan/python_scripts/windows_scripts/logpuzzle.py:import sys
+/home/aryan/python_scripts/windows_scripts/logpuzzle.py:import urllib
+/home/aryan/python_scripts/windows_scripts/reg_expression_exercise10:import re
+/home/aryan/python_scripts/windows_scripts/babynames 3.py:import sys
+/home/aryan/python_scripts/windows_scripts/babynames 3.py:import re
+/home/aryan/python_scripts/windows_scripts/mimic 2.py:import random
+/home/aryan/python_scripts/windows_scripts/mimic 2.py:import sys
+/home/aryan/python_scripts/windows_scripts/file2:import sys
+/home/aryan/python_scripts/windows_scripts/mimic.py:import random
+/home/aryan/python_scripts/windows_scripts/mimic.py:import sys
+/home/aryan/python_scripts/windows_scripts/battleship_game:from random import randint
+/home/aryan/python_scripts/windows_scripts/file3:import sys
+/home/aryan/python_scripts/windows_scripts/reg_expression_exercise4:import re
+/home/aryan/python_scripts/windows_scripts/reg_expression_exercise5:import re
+Binary file /home/aryan/python_scripts/windows_scripts/.git/index matches
+/home/aryan/python_scripts/windows_scripts/.git/hooks/pre-rebase.sample:    Then you can delete it.  More importantly, you should not
