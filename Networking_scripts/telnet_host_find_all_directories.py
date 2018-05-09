@@ -13,13 +13,15 @@ def connect_telnet(h,u,p,tn):
 
     #tn=tlib.Telnet(h)
 
-    tn.read_until(b"login: ")
-    tn.write((u+"\r\n").encode('ascii'))
-    tn.read_until(b"Password: ")
-    tn.write((p+"\r\n").encode('ascii'))
-    tn.write(b"cd /home/aryan/python_scripts/ubuntu_scripts\n")
-    tn.write(b"ls -l\n")
-    tn.write(b"exit\n")
+    a=tn.read_until(b"login: ")
+    a1=tn.write((u+"\r\n").encode('ascii'))
+    b=tn.read_until(b"Password: ")
+    b1=tn.write((p+"\r\n").encode('ascii'))
+    c=tn.write(b"cd /home/aryan/python_scripts/ubuntu_scripts\n")
+    c1=tn.write(b"ls -l\n")
+    c2=tn.write(b"exit\n")
+
+    print (a,":",a1,":",b,":",b1,":",c,":",c1,":",c2)
     output=(tn.read_all().decode('ascii'))
     tn.close()
 
