@@ -1,0 +1,4 @@
+1526920620513	geckodriver	INFO	geckodriver 0.18.0
+1526920620611	geckodriver	INFO	Listening on 127.0.0.1:34953
+1526920622508	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/ary/.Xauthority which is owned by ary.)

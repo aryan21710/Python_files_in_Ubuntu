@@ -1,0 +1,50 @@
+NAME OF THE RESTAURANT:-SHANTHI SAGAR
+AVERAGE COST FOR TWO:-300
+RATING:-0
+ADDRESS:-43/2, Kamakke Complex, 100 Feet ring Road, Banashankari, Bangalore
+************************************************************
+NAME OF THE RESTAURANT:-SHANTHI SAGAR
+AVERAGE COST FOR TWO:-400
+RATING:-3.1
+ADDRESS:-469, 3rd Block, Siddaiah Puranik Road, 3rd Stage, Basaveshwara Nagar, Bangalore
+************************************************************
+NAME OF THE RESTAURANT:-SHANTHI SAGAR
+AVERAGE COST FOR TWO:-300
+RATING:-3.4
+ADDRESS:-34/A, Dollars Colony Circle, Devasandra, New BEL Road, Bangalore
+************************************************************
+NAME OF THE RESTAURANT:-SHANTHI SAGAR
+AVERAGE COST FOR TWO:-400
+RATING:-3.1
+ADDRESS:-24, Subramaniapura Main Road, Uttarahalli, Bangalore
+************************************************************
+NAME OF THE RESTAURANT:-SHANTHI SAGAR
+AVERAGE COST FOR TWO:-400
+RATING:-2.6
+ADDRESS:-77/1, 24th Main, 2nd Phase, JP Nagar, Bangalore
+************************************************************
+NAME OF THE RESTAURANT:-SHANTHI SAGAR
+AVERAGE COST FOR TWO:-350
+RATING:-3.4
+ADDRESS:-9/1, Tank Road, Ulsoor, Bangalore
+************************************************************
+NAME OF THE RESTAURANT:-NEW SHANTHI SAGAR
+AVERAGE COST FOR TWO:-450
+RATING:-3.0
+ADDRESS:-13 Opposite Domlur Bus Depot, Domlur, Bangalore
+************************************************************
+NAME OF THE RESTAURANT:-NEW SHANTHI SAGAR
+AVERAGE COST FOR TWO:-450
+RATING:-3.1
+ADDRESS:-4, P&T Colony, RT Nagar, Bangalore
+************************************************************
+NAME OF THE RESTAURANT:-NEW SHANTHI SAGAR
+AVERAGE COST FOR TWO:-200
+RATING:-2.8
+ADDRESS:-1DC-201 RMR Sun Shine, Kasturi Nagar, Banaswadi, Bangalore
+************************************************************
+NAME OF THE RESTAURANT:-NEW SHANTHI SAGAR
+AVERAGE COST FOR TWO:-600
+RATING:-2.8
+ADDRESS:-201,1DC, RMR Sunshine, Kasturi Nagar, Banaswadi, Bangalore
+************************************************************
