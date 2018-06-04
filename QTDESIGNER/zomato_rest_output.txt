@@ -1,0 +1,25 @@
+NAME OF THE RESTAURANT:-MOMO CAFE - COURTYARD BY MARRIOTT
+AVERAGE COST FOR TWO:-2800
+RATING:-3.9
+ADDRESS:-Courtyard by Marriott, Andheri Kurla Road, Near Mumbai International Airport, Andheri East, Chakala, Mumbai
+************************************************************
+NAME OF THE RESTAURANT:-ROMANO'S - JW MARRIOTT MUMBAI SAHAR
+AVERAGE COST FOR TWO:-5000
+RATING:-4.8
+ADDRESS:-JW Marriott Mumbai Sahar, IA Project Road, Chhatrapati Shivaji International Airport, Sahar, Chakala, Mumbai
+************************************************************
+NAME OF THE RESTAURANT:-SAFFRON - JW MARRIOTT MUMBAI JUHU
+AVERAGE COST FOR TWO:-3500
+RATING:-3.8
+ADDRESS:-JW Marriott, Juhu Tara Road, Juhu, Mumbai
+************************************************************
+NAME OF THE RESTAURANT:-ARK - COURTYARD BY MARRIOTT
+AVERAGE COST FOR TWO:-3000
+RATING:-3.8
+ADDRESS:-Courtyard by Marriott, Andheri Kurla Road, Near Mumbai International Airport, Andheri East, Chakala, Mumbai
+************************************************************
+NAME OF THE RESTAURANT:-LOTUS CAFE - JW MARRIOTT MUMBAI JUHU
+AVERAGE COST FOR TWO:-3500
+RATING:-4.0
+ADDRESS:-JW Marriott, Juhu Tara Road, Juhu, Mumbai
+************************************************************

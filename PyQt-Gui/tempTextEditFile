@@ -1,0 +1,23 @@
+Creating Main Window Components
+A central widget will typically be a standard Qt widget such as a QTextEdit or a QGraphicsView. Custom widgets can also be used for advanced applications. You set the central widget with setCentralWidget().
+
+Main windows have either a single (SDI) or multiple (MDI) document interface. You create MDI applications in Qt by using a QMdiArea as the central widget.
+
+We will now examine each of the other widgets that can be added to a main window. We give examples on how to create and add them.
+
+Creating Menus
+Qt implements menus in QMenu and QMainWindow keeps them in a QMenuBar. QActions are added to the menus, which display them as menu items.
+
+You can add new menus to the main window's menu bar by calling menuBar(), which returns the QMenuBar for the window, and then add a menu with QMenuBar.addMenu().
+
+QMainWindow comes with a default menu bar, but you can also set one yourself with setMenuBar(). If you wish to implement a custom menu bar (i.e., not use the QMenuBar widget), you can set it with setMenuWidget().
+
+An example of how to create menus follows:
+
+ void MainWindow.createMenus()
+ {
+     fileMenu = menuBar()->addMenu(tr("&File"));
+     fileMenu->addAction(newAct);
+     fileMenu->addAction(openAct);
+     fileMenu->addAction(saveAct);
+The createPopupMenu() function creates popup menus when the main window receives context menu events. The default implementation generates a menu with the checkable actions from the dock widgets and toolbars. You can reimplement createPopupMenu() for a custom menu.
