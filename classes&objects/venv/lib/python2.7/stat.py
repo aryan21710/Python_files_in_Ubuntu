@@ -1,1 +1,1 @@
-/usr/lib/python2.7/stat.py
+/mnt/c/usr/lib/python2.7/stat.py

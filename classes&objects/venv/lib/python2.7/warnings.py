@@ -1,1 +1,1 @@
-/usr/lib/python2.7/warnings.py
+/mnt/c/usr/lib/python2.7/warnings.py

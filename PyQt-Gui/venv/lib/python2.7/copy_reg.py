@@ -1,1 +1,1 @@
-/usr/lib/python2.7/copy_reg.py
+/mnt/c/usr/lib/python2.7/copy_reg.py
